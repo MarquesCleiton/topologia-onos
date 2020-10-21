@@ -20,12 +20,6 @@ import org.onosproject.cli.AbstractShellCommand;
 
 @Command(scope = "onos", name = "meu-teste",
 description = "um pequeno teste")
-public class Teste extends AbstractShellCommand {
-
-	@Override
-	protected void execute() {
-		print("Um pequeno teste");
-		
-	}
+public class Teste {
 
 }
