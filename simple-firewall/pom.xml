@@ -67,6 +67,19 @@
             <version>1.9.8</version>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+			<groupId>org.apache.karaf.shell</groupId>
+			<artifactId>org.apache.karaf.shell.console</artifactId>
+			<version>3.0.5</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.onosproject</groupId>
+			<artifactId>onos-cli</artifactId>
+			<version>${onos.version}</version>
+		</dependency>
     </dependencies>
 
     <build>
