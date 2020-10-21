@@ -8,7 +8,7 @@ import org.onosproject.cli.AbstractShellCommand;
 public class MaisUmTeste extends AbstractShellCommand{
 	
 	protected void execute() {
-		print("testando a minha aplicação");
+		print("testando a minha aplicacao");
 	}
 
 }
